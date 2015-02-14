@@ -1,9 +1,16 @@
+
 .gameboard{
   border: 5px solid black;
   height: 500px;
   width: 700px;
+  background-image: url("volcano.jpg");
+  background-size: cover;
 }
 
 .enemy{
   fill:purple;
+}
+
+.player{
+  fill:green;
 }
