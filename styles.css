@@ -1,14 +1,43 @@
+body {
+  text-align: center;
+  background-image: url("lava.jpg");
+  font-family: "Verdana";
+  font-size: 30px;
+}
+
+.header {
+  font-size: 80px;
+  color: white;
+  margin-top: 50px;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+
+.container {
+  background-color: #333333;
+  color: white;
+  margin: 20px 100px 100px 100px;
+}
+
+.scoreboard {
+  text-align: left;
+  /*margin-left: 13%;*/
+}
+
+svg{
+  height: 600px;
+  width:700px;
+  text-align: bottom;
+}
 
 .gameboard{
-  border: 5px solid black;
   height: 500px;
   width: 700px;
-  background-image: url("volcano.jpg");
-  background-size: cover;
+  text-align: bottom;
 }
 
 .enemy{
-  fill:purple;
+  fill:red;
 }
 
 .player{
