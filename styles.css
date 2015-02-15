@@ -21,13 +21,15 @@ body {
 
 .scoreboard {
   text-align: left;
-  /*margin-left: 13%;*/
+  display:block;
+  float: left;
 }
 
-svg{
-  height: 600px;
-  width:700px;
-  text-align: bottom;
+.slider {
+  float: right;
+  width: 49%;
+  margin-top: 25px;
+  margin-right: 10px;
 }
 
 .gameboard{
